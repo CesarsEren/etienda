@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ventas.pasarela.dao.V_destinosDao">
+<!-- com.cesars.pinedo.api.tiendavirtual.repository.CategoriasDAO -->
+
+	<!-- insert id="addCategoria" parameterType="Map">
+		insert into tbl_categoria
+		(categoria_descripcion,categoria_nuevo,categoria_mayor_id,categoria_visible)
+		values (#{desc},#{nuevo},#{mayor_id},#{visible})
+	</insert>-->
+
+	<select id="getdestinos" resultType="map">
+		select * from V_Destinos
+	</select>
+
+</mapper>
